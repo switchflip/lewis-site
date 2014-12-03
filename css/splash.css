@@ -1,0 +1,88 @@
+html {
+	background-image: url('../images/Shity Site Background.jpg');
+	background-size: 1600px 1200px;
+	width: 100%;
+}
+
+body {
+	width: 80%;
+	min-width: 430px;
+	margin: 0 auto;
+	min-width: 500px
+}
+
+
+.title {
+	font-size: 50px;
+}
+
+.main {
+	width: 90%;
+	margin: 0 auto;
+}
+
+.row {
+	width: 100%;
+}
+
+
+.left {
+	float: left;
+	width: 40%;
+	padding-right: 10%;
+}
+
+.left img {
+	width: 100%;
+}
+
+.left p {
+	color: #0000ff;
+}
+
+.clear-both {
+	clear: both;
+}
+
+.small {
+	width: 50%;
+}
+
+/* Osiris gbag style */
+
+#osiris {
+	width: 60%;
+}
+
+#best-ledge {
+	width: 115%;
+}
+
+/* iframe style */
+
+.auto-resizable-iframe {
+  max-width: 420px;
+  margin: 0px auto;
+}
+
+.auto-resizable-iframe > div {
+  position: relative;
+  padding-bottom: 75%;
+  height: 0px;
+}
+
+.auto-resizable-iframe iframe {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100%;
+}
+
+@media screen and (max-width: 900px) {
+	.left {
+		float: left;
+		width: 80%;
+		padding-right: 10%;
+	}
+}
