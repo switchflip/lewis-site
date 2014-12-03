@@ -2,6 +2,10 @@
 /*   Styles  */
 /*           */
 
+p, h1, h2, h3, h4, h5, h6 {
+  color: #333;
+}
+
 a {
   text-decoration: none;
 }
@@ -24,13 +28,19 @@ nav {
   margin: 0 auto;
 }
 
+header img {
+  margin: 0 auto;
+  padding-top: 47px;
+  display: block;
+}
+
 header nav ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
   list-style-type: none;
   text-align: center;
-  padding: 50px 0;
+  padding: 47px 0 50px 0;
 }
 
 header nav ul li {
@@ -39,16 +49,27 @@ header nav ul li {
 }
 
 header nav ul li:not(:first-child) {
-  padding-left: 20%;
+  padding-left: 15%;
+}
+
+header nav ul li a {
+  font-size: 20px;
 }
 
 .main {
+  border-top: 1px solid #D3D3D3;
   width: 80%;
   margin: 0 auto;
-  padding-bottom: 100px;
+  padding: 56px 0;
   position: relative;
   min-height: 100%;
 }
+
+  .main p {
+    text-align: center;
+    font-size: 20px;
+    padding-top: 3%;
+  }
 
 .video-wrapper {
   width: 500px;
@@ -62,10 +83,10 @@ footer {
   bottom: 0;
   height: 50px;
   width: 100%;
-  border-top: 1px dotted black;
 }
 
 footer .footer-wrap {
+  border-top: 1px dotted #D3D3D3;
   width: 80%;
   margin: 0 auto;
   text-align: center;
@@ -74,4 +95,10 @@ footer .footer-wrap {
 
 footer .footer-wrap p {
   margin: 0;
+}
+
+@media screen and (max-width: 450px) {
+   header img {
+    width: 45%;
+  }
 }
