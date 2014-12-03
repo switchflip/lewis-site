@@ -2,8 +2,12 @@
 /*   Styles  */
 /*           */
 
-p, h1, h2, h3, h4, h5, h6 {
-  color: #333;
+a, p, h1, h2, h3, h4, h5, h6 {
+  color: #0000FF;
+}
+
+p span {
+  color: black;
 }
 
 a {
@@ -13,6 +17,10 @@ a {
 html {
   position: relative;
   min-height: 100%;
+  background-image: url('../images/shity-site-background.jpg');
+  background-size: 1600px 1200px;
+  background-size: contain;
+  background-position: center;
 }
 
 body {
@@ -53,11 +61,11 @@ header nav ul li:not(:first-child) {
 }
 
 header nav ul li a {
-  font-size: 20px;
+  font-size: 30px;
 }
 
 .main {
-  border-top: 1px solid #D3D3D3;
+  border-top: 2px dotted black;
   width: 80%;
   margin: 0 auto;
   padding: 56px 0;
@@ -67,7 +75,7 @@ header nav ul li a {
 
   .main p {
     text-align: center;
-    font-size: 20px;
+    font-size: 30px;
     padding-top: 3%;
   }
 
@@ -86,7 +94,7 @@ footer {
 }
 
 footer .footer-wrap {
-  border-top: 1px dotted #D3D3D3;
+  border-top: 2px dotted black;
   width: 80%;
   margin: 0 auto;
   text-align: center;
