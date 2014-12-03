@@ -1,3 +1,20 @@
+/*           */
+/*   Styles  */
+/*           */
+
+a {
+  text-decoration: none;
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  margin: 0 0 100px;
+}
+
 header {
   width: 100%;
 }
@@ -13,9 +30,48 @@ header nav ul {
   padding: 0;
   list-style-type: none;
   text-align: center;
+  padding: 50px 0;
 }
 
 header nav ul li {
   display: inline;
   text-align: center;
+}
+
+header nav ul li:not(:first-child) {
+  padding-left: 20%;
+}
+
+.main {
+  width: 80%;
+  margin: 0 auto;
+  padding-bottom: 100px;
+  position: relative;
+  min-height: 100%;
+}
+
+.video-wrapper {
+  width: 500px;
+  margin: 0 auto;
+  padding-bottom: 100px;
+}
+
+footer {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  height: 50px;
+  width: 100%;
+  border-top: 1px dotted black;
+}
+
+footer .footer-wrap {
+  width: 80%;
+  margin: 0 auto;
+  text-align: center;
+  padding: 20px 0;
+}
+
+footer .footer-wrap p {
+  margin: 0;
 }
